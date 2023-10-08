@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="styles.css"/>
+<head>
+    <title>CSS positioning Cheatsheet</title>
+</head>
+<body>
+  <h1>CSS Positioning Reference</h1>
+  <table> 
+    <thead>
+    <tr>
+    <th>Name</th>
+    <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+   <tr>
+      <td>Postion</td>
+      <td>allows you to specify the position of an element</td>
+   </tr>
+   <tr>
+    <td>Relative</td>
+    <td>an elements position is relative to its default position on the page</td>
+  </tr>
+  <tr>
+    <td>Absolute</td>
+    <td>an elements position is relative to its closest positioned parent element. It can be pinned to any part of the web page, but the element will still move with the rest of the document when the page is scrolled</td>
+  </tr>
+  <tr>
+    <td>Fixed</td>
+     <td>an elements position can be pinned to any part of the web page. The element will remain in view no matter what</td>
+    </tr>
+  <tr>
+    <td>Sticky</td>
+    <td>an element can stick to a defined offset position when the user scrolls its parent container</td>
+  </tr>
+  <tr>
+    <td>Z-index</td>
+    <td>specifies how far back or how far forward an element appears on the page when it overlaps other elements</td>
+  </tr>
+  <tr>
+    <td>Display</td>
+    <td>allows you to control how an element flows vertically and horizontally in a document</td>
+  </tr>
+  <tr>
+    <td>Inline Elements</td>
+    <td>take up as little space as possible, and they cannot have manually adjusted width or height</td>
+  </tr>
+     <td>Block Elements</td>
+     <td>take up the width of their container and can have manually adjusted heights</td>
+  <tr>
+    <td>Inline-Block Elements</td>
+    <td>have set width and height, but they can also appear next to each other and do not take up their entire container width</td>
+  </tr>
+  </tbody>
+  </table>
+</body>
+</html>
